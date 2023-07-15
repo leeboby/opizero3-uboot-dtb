@@ -22,5 +22,5 @@ sudo cp sun50i-h616-orangepi-zero3-4gb.dtb /mnt/boot/dtb/allwinner/sun50i-h616-o
 - 然后使用下面的命令将u-boot的bin文件更新到tf卡中
 ```
 sudo dd bs=1k seek=8 if=u-boot-sunxi-with-spl-opizero3-4gb.bin of=/dev/sdax
-
+```
 
